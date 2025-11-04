@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arsenal FC Profile</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">⚽ PL Fan Hub</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Fixtures</a></li>
+        <li><a href="#">Teams</a></li>
+        <li><a href="#">Table</a></li>
+      </ul>
+    </nav>
+  </header>
+<div class="team-header">
+  <img id="team-logo" src="" alt="Team Logo" />
+  <h1 id="team-name">Team Name</h1>
+</div>
+  <section class="team-profile">
+  <div class="team-selector">
+    <label for="team-select">Choose a team:</label>
+   <div class="team-selector">
+  <label for="team-select">Choose a team:</label>
+  <select id="team-select">
+    <option value="arsenal">Arsenal</option>
+    <option value="chelsea">Chelsea</option>
+    <option value="man-city">Man City</option>
+  </select>
+</div>
+
+<div class="squad">
+  <h2>Squad</h2>
+  <div class="search-bar">
+  <input type="text" id="search-input" placeholder="Search player by name..." />
+</div>
+  <div class="squad-list" id="squad-list"></div>
+</div>
+
+<div class="player-card" id="player-card">
+  <img id="player-photo" src="" alt="Player Photo" />
+  <h2 id="player-name">Player Name</h2>
+  <p id="player-position">Position: </p>
+  <p id="player-stats">Stats: </p>
+</div>
+    <div class="form">
+      <h2>Recent Form</h2>
+      <p>W - W - D - L - W</p>
+    </div>
+
+    <div class="fixtures">
+      <h2>Upcoming Fixtures</h2>
+      <ul id="fixture-list"></ul>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Premier League Fan Hub</p>
+  </footer>
+
+  <script src="team.js"></script>
+</body>
+</html>

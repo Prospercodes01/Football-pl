@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Premier League Fan Hub</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">⚽ PL Fan Hub</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Fixtures</a></li>
+        <li><a href="#">Teams</a></li>
+        <li><a href="#">Table</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Premier League 2025/26</h1>
+    <p>Live scores, team stats, and breaking news — all in one place.</p>
+    <button>Explore Fixtures</button>
+  </section>
+
+  <section class="featured-match">
+    <h2>🔥 Featured Match</h2>
+    <div class="match-card">
+      <div class="teams">
+        <span>Arsenal</span>
+        <span>vs</span>
+        <span>Chelsea</span>
+      </div>
+      <p>Saturday, Nov 8 — 5:30 PM</p>
+    </div>
+  </section>
+
+  <section class="latest-news">
+    <h2>📰 Latest News</h2>
+    <ul id="news-list"></ul>
+  </section>
+  <section class="league-table">
+  <h2>🏆 Premier League Table</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Team</th>
+        <th>P</th>
+        <th>W</th>
+        <th>D</th>
+        <th>L</th>
+        <th>Pts</th>
+      </tr>
+    </thead>
+    <tbody id="table-body">
+      <!-- Rows will be added by JavaScript -->
+    </tbody>
+  </table>
+</section>
+
+  <footer>
+    <p>&copy; 2025 Premier League Fan Hub. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
